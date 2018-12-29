@@ -154,7 +154,7 @@ h2{
     margin-top: 20px;
 }
 .news .right .col-md-4{
-    padding-top: 10%
+    padding-top: 5%
 }
 .news .right .col-md-4 img{
     width: 100%
@@ -219,4 +219,87 @@ h2{
 .copyright {
     border-top: 1px solid #979797;
     padding-top: 10px;
+}
+/* 服务内容页面 */
+.service{
+    margin-top: 50px;
+}
+.service .text{
+    text-align: left;
+    font-size: 60px;
+    font-weight: 400
+}
+.service .col-md-11 p{
+    font-size: 24px;
+    text-align: left;
+    margin-top: 10px;
+}
+.service .step1 img{
+    width: 80%;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 6px 12px 1px rgba(0,100,222,0.2);
+    border-radius:12px;
+}
+.service .step1 .col-md-6:first-child{
+    text-align: left;
+}
+.service .step1 .col-md-6:last-child{
+    text-align: right;
+}
+.service .step1 .col-md-6:last-child p{
+    margin-left: 20%;
+}
+.service .step1 .col-md-6 p{
+    text-align: center;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.service .col-md-11 .little{
+    font-size: 14px;
+    width: 50%;
+}
+.service .col-md-11 .row{
+    margin-top: 50px;
+}
+.service .step2{
+    margin-top: 50px;
+}
+.service .step3{
+    margin-top: 50px;
+}
+.service .step2 img , .service .step3 img{
+    width: 90%;
+    padding: 5%;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 6px 12px 1px rgba(0,100,222,0.2);
+    border-radius:12px;
+}
+.footbanner img{
+    width: 100%;
+}
+.step4{
+    margin:50px 0;
+}
+@media (max-width : 992px){
+    .service{
+        margin-top: 20px;
+    }
+    .service .col-md-11 .little{
+        width: 100%;
+    }
+    .service .step1 img{
+        width: 100%;
+    }
+    .service .step1 .col-md-6:last-child p{
+        margin-left: 0;
+    }
+    .service .step1 .col-md-6 p{
+        text-align: center;
+        width: 100%;
+    }
+    .service .step2,.service .step3{
+        margin-top: 20px;
+    }
 }
