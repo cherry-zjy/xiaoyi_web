@@ -7,3 +7,7 @@ $(document).ready(function(){
 
  var width = $(".news-card > img").width()
  $(".news-card > img").css('height',width/2)
+
+ function go(){
+    window.location.href = "newdetail.html"
+ }

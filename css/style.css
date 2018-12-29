@@ -413,3 +413,50 @@ h2{
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
+/* 资讯详情页 */
+.detail-banner{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    z-index: 1;
+}
+.detail-banner .title{
+    font-size:28px;
+    font-weight:600;
+    color:rgba(74,74,74,1);
+    line-height:40px;
+}
+.detail-banner .time{
+    font-size:14px;
+    font-weight:400;
+    color:rgba(74,74,74,1);
+    line-height:20px;
+}
+.detailpage img{
+    width: 100%;
+    margin-top: 50px;
+}
+.detailpage .col-md-8{
+    margin-bottom: 50px;
+}
+.detailpage .phone{
+    display: none;
+}
+@media (max-width : 992px){
+    .detail-banner{
+        text-align: center;
+        position: unset;
+        width: 100%;
+        z-index: 1;
+    }
+    .detail-banner .title{
+        padding: 0 20px;
+    }
+    .detail#myCarousel{
+        display: none;
+    }
+    .detailpage .phone{
+        display: block;
+    }
+}
